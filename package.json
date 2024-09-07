@@ -1,9 +1,16 @@
 {
-    "name": "monorepo",
-    "private": true,
-    "workspaces": [
-      "backend",
-      "frontend",
-      "core"
-    ]
+  "name": "green-wheels",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "green-wheels-backend",
+    "green-wheels-frontend",
+    "green-wheels-core"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces"
+  },
+  "devDependencies": {
   }
+}
