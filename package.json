@@ -1,16 +1,24 @@
 {
-  "name": "green-wheels",
-  "version": "1.0.0",
-  "private": true,
-  "workspaces": [
-    "green-wheels-backend",
-    "green-wheels-frontend",
-    "green-wheels-core"
-  ],
-  "scripts": {
-    "build": "npm run build --workspaces",
-    "test": "npm run test --workspaces"
-  },
-  "devDependencies": {
-  }
+    "name": "green-wheels",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "green-wheels-backend",
+        "green-wheels-frontend",
+        "green-wheels-core"
+    ],
+    "scripts": {
+        "build": "npm run build --workspaces",
+        "test": "npm run test --workspaces",
+        "start:backend": "npm run build && npm run start --workspace=green-wheels-backend",
+        "start:frontend": "npm run serve --workspace=green-wheels-frontend",
+        "start:all": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+        "format": "prettier . --write"
+    },
+    "dependencies": {
+        "concurrently": "^9.1.2"
+    },
+    "devDependencies": {
+        "prettier": "3.4.2"
+    }
 }
