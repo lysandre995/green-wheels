@@ -7,7 +7,7 @@ To offer rides, you must create a profile that lets others understand your prefe
 
 The app is designed to be accessible on all devices and is fully mobile-friendly.
 
-The project is a POC and the miss most of the adva
+This project is a proof of concept (POC) and has no commercial ambitions. As such, it lacks professional-grade features and other aspects expected from a production-ready application.
 
 ## Usage
 
