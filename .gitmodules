@@ -1,9 +1,9 @@
 [submodule "green-wheels-core"]
 	path = green-wheels-core
-	url = https://github.com/lysandre995/green-wheels-core.git
+	url = git@github.com:lysandre995/green-wheels-core.git
 [submodule "green-wheels-backend"]
 	path = green-wheels-backend
-	url = https://github.com/lysandre995/green-wheels-backend.git
+	url = git@github.com:lysandre995/green-wheels-backend.git
 [submodule "green-wheels-frontend"]
 	path = green-wheels-frontend
-	url = https://github.com/lysandre995/green-wheels-frontend.git
+	url = git@github.com:lysandre995/green-wheels-frontend.git
